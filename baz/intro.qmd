@@ -1,0 +1,24 @@
+
+# Introduction
+
+This is a book created from markdown and executable code.
+
+See @knuth84 for additional discussion of literate programming.
+
+By the way, the equation
+
+$$
+e^{ix} = \cos(x) + i \sin(x)
+$$ {#eq-euler-identity}
+
+is rather cool. When you evaluate @eq-euler-identity at $x=\pi$, it becomes 
+
+$$
+e^{i\pi} + 1 = 0. 
+$$
+
+Python is aware of this fact, too:
+```{python}
+from numpy import *
+exp( 1j*pi )
+```

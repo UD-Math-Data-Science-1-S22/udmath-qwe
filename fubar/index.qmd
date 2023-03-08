@@ -1,0 +1,5 @@
+---
+title: "fubar"
+---
+
+This is a demo website. Professor Rees is smiling at us.
